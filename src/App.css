@@ -1,0 +1,46 @@
+/* styles.css */
+*{
+    box-sizing: border-box;
+    background-color: #EBEBED;
+}
+/* styles.css */
+:root {
+  --bg-color: #EBEBED;
+  --text-color: #000000;
+  --header-bg-color: #FFFFFF;
+  --border-color: #CCCCCC;
+  --button-bg-color: #FF6A47;
+  --button-hover-bg-color: #C75330;
+  --button-hover-text-color: #FFFFFF;
+}
+
+.dark-mode {
+  --bg-color: #1E1E1E;
+  --text-color: #FFFFFF;
+  --header-bg-color: #333333;
+  --border-color: #555555;
+  --button-bg-color: #FF6A47;
+  --button-hover-bg-color: #C75330;
+  --button-hover-text-color: #FFFFFF;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: var(--header-bg-color);
+  border-color: var(--border-color);
+}
+
+button {
+  background-color: var(--button-bg-color);
+}
+
+button:hover {
+  background-color: var(--button-hover-bg-color);
+  color: var(--button-hover-text-color);
+}
